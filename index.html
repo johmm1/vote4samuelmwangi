@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vote Samuel Muchiri Mwangi | Male Delegate – University of Embu</title>
+  <meta name="description" content="Official campaign page for Samuel Muchiri Mwangi, Male Delegate candidate, University of Embu – Department of Economics." />
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; background:#f5f7f6; color:#1f2933; }
+    header { background: linear-gradient(135deg, #0d47a1, #c62828); color:#fff; padding:40px 20px; }
+    .container { max-width:1100px; margin:auto; padding:20px; }
+    .hero { display:flex; flex-wrap:wrap; align-items:center; gap:30px; }
+    .hero img { max-width:320px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,0.15); }
+    .hero-text h1 { font-size:2.4rem; margin:0 0 10px; }
+    .hero-text h2 { font-size:1.4rem; margin:0 0 10px; font-weight:400; }
+    .badge { display:inline-block; background:#c62828; color:#fff; padding:6px 14px; border-radius:20px; font-weight:bold; margin-bottom:15px; }
+    section { margin:50px 0; }
+    h3 { color:#0d47a1; margin-bottom:15px; }
+    ul { padding-left:20px; }
+    li { margin-bottom:10px; }
+    .values { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); gap:12px; }
+    .value { background:#fff; padding:12px 15px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
+
+    /* Discussion Forum */
+    .forum { background:#ffffff; border-radius:12px; padding:25px; box-shadow:0 5px 20px rgba(0,0,0,0.08); }
+    .forum h3 { color:#c62828; }
+    .forum input, .forum textarea {
+      width:100%; padding:12px; margin-bottom:12px; border-radius:8px; border:1px solid #ccc; font-size:1rem;
+    }
+    .forum button {
+      background:#0d47a1; color:#fff; border:none; padding:12px 20px; border-radius:25px; font-size:1rem; cursor:pointer;
+    }
+    .forum button:hover { background:#08306b; }
+    .post { border-left:5px solid #c62828; background:#f9fafb; padding:15px; border-radius:8px; margin-top:15px; }
+    .post strong { color:#0d47a1; }
+
+    .cta { background: linear-gradient(135deg, #0d47a1, #c62828); color:#fff; text-align:center; padding:40px 20px; border-radius:12px; }
+    .cta a { display:inline-block; background:#fff; color:#c62828; padding:12px 24px; border-radius:30px; text-decoration:none; font-weight:bold; margin-top:15px; }
+    footer { text-align:center; padding:20px; font-size:0.9rem; color:#555; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container hero">
+      <img src="poster.jpg" alt="Samuel Muchiri Mwangi" />
+      <div class="hero-text">
+        <span class="badge">VOTE</span>
+        <h1>Samuel Muchiri Mwangi</h1>
+        <h2>Male Delegate – Department of Economics</h2>
+        <p><strong>University of Embu</strong></p>
+        <p>Committed to Your Success.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h3>My Agenda</h3>
+      <ul>
+        <li>Regular career talks, career guidance and Economics days.</li>
+        <li>Consistency and easy accessibility during attachment.</li>
+        <li>Departmental, semesterial, academic and field trips.</li>
+        <li>Strong teamwork with departmental and female delegates.</li>
+        <li>Promoting inclusivity and diversity.</li>
+        <li>Clear guidance on CPA, CIFA and other related short courses.</li>
+        <li>Effective and strong representation of the department.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Core Values</h3>
+      <div class="values">
+        <div class="value">Loyalty</div>
+        <div class="value">Integrity</div>
+        <div class="value">Empathy</div>
+        <div class="value">Confidentiality</div>
+        <div class="value">Trustworthiness</div>
+        <div class="value">Consideration</div>
+        <div class="value">Concern</div>
+        <div class="value">Accountability</div>
+        <div class="value">Transparency</div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h3>Join the Official Voters Discussion</h3>
+      <p>Your voice matters. Join the WhatsApp group to share ideas, concerns, and expectations for the Department of Economics.</p>
+      <a href="https://chat.whatsapp.com/Ho502E4V2iSEYTn5aHuD5L" target="_blank">Join WhatsApp Group</a>
+      <p style="margin-top:15px; font-size:0.95rem;">This is an open space for respectful discussion and student engagement.</p>
+    </section>
+
+    <section class="cta">
+      <h3>Let’s Build a Strong Department Together</h3>
+      <p>Vote for leadership, integrity, and action.</p>
+      <p><strong>Call / WhatsApp:</strong> 0758 174 791</p>
+      <a href="tel:0758174791">Contact Samuel</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Samuel Muchiri Mwangi | University of Embu – Department of Economics
+  </footer>
+  <script>
+    function sendMessage() {
+      const name = document.getElementById('name').value || 'Student';
+      const message = document.getElementById('message').value;
+      if (!message.trim()) return alert('Please type a message.');
+
+      const msg = document.createElement('div');
+      msg.style.marginBottom = '12px';
+      msg.innerHTML = `<strong style="color:#0d47a1">${name}:</strong> <span>${message}</span>`;
+
+      const chatBox = document.getElementById('chatBox');
+      chatBox.appendChild(msg);
+      chatBox.scrollTop = chatBox.scrollHeight;
+
+      document.getElementById('message').value = '';
+      document.getElementById('name').value = '';
+    }</strong><p>${message}</p>`;
+
+      document.getElementById('posts').prepend(post);
+      document.getElementById('message').value = '';
+      document.getElementById('name').value = '';
+    }
+  </script>
+</body>
+</html>
